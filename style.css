@@ -1,0 +1,60 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.slides{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
+
+.description {
+
+}
+
+.resume {
+
+}
+
+.welcome_message{
+  text-align: left;
+  font-family: Lexend;
+  color: #078ddb;
+}
+
+#profile_picture{
+  border-radius: 30px;
+  background-color: #078ddb;
+}
+
+#big{
+   font-size: 100px;
+   animation: arrowAnimation 2s infinite;
+}
+
+@keyframes arrowAnimation {
+    from {
+        color: white;
+    }
+
+    to {
+        filter: black;
+    }
+}
+
+#introduction{
+  background-color: #f7d557;
+  border-radius: 30px;
+  padding: 32px;
+  height: 90%;
+}
+
+
+.link{
+  color: white;
+}
